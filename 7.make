@@ -6,9 +6,10 @@ api = 2
 ;projects[pressflow][download][type] = git
 ;projects[pressflow][download][url] = https://github.com/pressflow/7.git
 ;projects[pressflow][download][tag] = pressflow-7.17
-; projects[pressflow][patch][] = "http://drupal.org/files/node_access_write_grants_fix_duplicate_keys-1146244-3-D7.patch"
+;projects[pressflow][patch][] = "http://drupal.org/files/node_access_write_grants_fix_duplicate_keys-1146244-3-D7.patch"
 
-projects[] = drupal
+projects[drupal][type] = core
+projects[drupal][version] = 7.20
 
 ; APC - Alternative PHP Cache
 projects[apc][subdir] = contrib
