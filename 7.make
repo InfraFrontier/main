@@ -15,6 +15,10 @@ projects[drupal][version] = 7.20
 projects[apc][subdir] = contrib
 projects[apc][version] = 1.0-beta4
 
+; MEMCACHE - Memcache API and Integration
+projects[memcache][subdir] = contrib
+projects[memcache][version] = 1.0
+
 ; Devel
 projects[devel][subdir] = contrib
 projects[devel][version] = 7.x-1.3
