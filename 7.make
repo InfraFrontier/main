@@ -1,17 +1,14 @@
 core = 7.x
 api = 2
 
-; CORE DRUPAL (PRESSFLOW)
-projects[pressflow][type] = core
-projects[pressflow][download][type] = git
-projects[pressflow][download][url] = https://github.com/pressflow/7.git
-projects[pressflow][download][tag] = pressflow-7.17
-; projects[pressflow][patch][] = "http://drupal.org/files/node_access_write_grants_fix_duplicate_keys-1146244-3-D7.patch"
+projects[drupal][type] = core
+projects[drupal][version] = 7.20
 
-; APC - Alternative PHP Cache
-projects[apc][subdir] = contrib
-projects[apc][version] = 1.0-beta4
+; MEMCACHE - Memcache API and Integration
+projects[memcache][subdir] = contrib
+projects[memcache][version] = 1.0
 
 ; Devel
 projects[devel][subdir] = contrib
 projects[devel][version] = 7.x-1.3
+
