@@ -11,3 +11,4 @@ projects[memcache][version] = 1.0
 ; Devel
 projects[devel][subdir] = contrib
 projects[devel][version] = 7.x-1.3
+
